@@ -1,0 +1,50 @@
+.Header .Header__Content .Header__Content--head {
+  display: flex;
+  width: 95%;
+  margin: auto;
+}
+.Header .Header__Content .Header__Content--head .Header__Brand {
+  width: 50%;
+}
+.Header .Header__Content .Header__Content--head .Header__Menu {
+  width: 50%;
+}
+.Header .Header__Content .Header__Content--head .Header__Menu .Header__Menu--body {
+  display: block;
+}
+.Header .Header__Content .Header__Content--head .Header__Menu .Header__Menu--body nav ol {
+  display: block;
+  margin: 0;
+  list-style: none;
+}
+.Header .Header__Content .Header__Content--head .Header__Menu .Header__Menu--body nav ol li {
+  list-style: none;
+  display: inline-block;
+}
+.Header .Header__Content .Header__Content--head .Header__Menu .Header__Menu--body nav ol li a {
+  display: block;
+  padding: 9px 5px;
+}
+.Header .Header__Content .Header__Content--body {
+  display: block;
+  height: 470px;
+  background: #646464;
+  background: url("../img/background.png") no-repeat;
+  background-size: 100% auto;
+  background-position: center center;
+}
+.Space .Space__Content .Space__Content--body {
+  padding: 30px 0;
+}
+.Space .Space__Content .Space__Content--body .Space__Twitter {
+  background: #646464;
+}
+.Contact .Contact__Content .Contact__Content--body {
+  padding: 30px 0;
+}
+.Footer .Footer__Content .Footer__Content--body .Footer__body--menu ul li {
+  list-style: none;
+}
+.Footer .Footer__Content .Footer__Content--body .Footer__body--social ul li {
+  list-style: none;
+}
