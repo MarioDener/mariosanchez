@@ -1,10 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Istok+Web:700");
 .Header .Header__Content .Header__Content--head {
+  position: absolute;
   display: flex;
   width: 95%;
   margin: auto;
 }
 .Header .Header__Content .Header__Content--head .Header__Brand {
   width: 50%;
+}
+.Header .Header__Content .Header__Content--head .Header__Brand .Header__Brand--body {
+  margin-left: 10%;
+}
+.Header .Header__Content .Header__Content--head .Header__Brand .Header__Brand--body a {
+  display: block;
+  font-family: 'Istok Web', 'sans-serif';
+  color: #000;
 }
 .Header .Header__Content .Header__Content--head .Header__Menu {
   width: 50%;
@@ -24,27 +34,64 @@
 .Header .Header__Content .Header__Content--head .Header__Menu .Header__Menu--body nav ol li a {
   display: block;
   padding: 9px 5px;
+  color: #143548;
+  transition: 0.3s ease-out;
+  border-bottom: 2pt solid transparent;
+}
+.Header .Header__Content .Header__Content--head .Header__Menu .Header__Menu--body nav ol li a:hover {
+  color: #074f67;
+  border-bottom: 2pt solid #e82535;
 }
 .Header .Header__Content .Header__Content--body {
   display: block;
   height: 470px;
-  background: #646464;
+  background: #00008b;
   background: url("../img/background.png") no-repeat;
   background-size: 100% auto;
   background-position: center center;
+}
+.Space {
+  background: #77848e;
 }
 .Space .Space__Content .Space__Content--body {
   padding: 30px 0;
 }
 .Space .Space__Content .Space__Content--body .Space__Twitter {
-  background: #646464;
+  background: #00008b;
 }
 .Contact .Contact__Content .Contact__Content--body {
   padding: 30px 0;
 }
+.Footer {
+  background: #143548;
+}
+.Footer .Footer__Content .Footer__Content--head h2 {
+  color: #fff;
+}
 .Footer .Footer__Content .Footer__Content--body .Footer__body--menu ul li {
   list-style: none;
 }
+.Footer .Footer__Content .Footer__Content--body .Footer__body--social ul {
+  margin: 0;
+}
 .Footer .Footer__Content .Footer__Content--body .Footer__body--social ul li {
   list-style: none;
+  display: inline-block;
+  margin: 5px 5px;
+}
+.Footer .Footer__Content .Footer__Content--body .Footer__body--social ul li a {
+  text-decoration: none;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 2px solid transparent;
+  transition: 0.3s ease-out;
+  padding: 9px 10px;
+}
+.Footer .Footer__Content .Footer__Content--body .Footer__body--social ul li a img {
+  display: block;
+  width: 150%;
+}
+.Footer .Footer__Content .Footer__Content--body .Footer__body--social ul li a:hover {
+  border: 2px solid #77848e;
 }
